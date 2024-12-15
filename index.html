@@ -6737,8 +6737,8 @@
         }
         function e(t, e = Number.MAX_VALUE) {
           var o;
-          (window.canva_scriptExecutor =
-            null !== (o = window.canva_scriptExecutor) && void 0 !== o
+          (window.scriptExecutor =
+            null !== (o = window.scriptExecutor) && void 0 !== o
               ? o
               : new n()).runOnLoad({ callback: t, priority: e });
         }
@@ -6777,8 +6777,8 @@
         }
         function i(n, e, i = t) {
           var r;
-          (window.canva_debounceResize =
-            null !== (r = window.canva_debounceResize) && void 0 !== r
+          (window.debounceResize =
+            null !== (r = window.debounceResize) && void 0 !== r
               ? r
               : new o(i)).runOnResize(n, {
             runOnLoad: !1,
